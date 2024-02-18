@@ -27,7 +27,7 @@ export const Item = ({
 
     return (
         <div className="aspect-square relative">
-            <Hint lable={name} side="right" sideOffset={16} align="start">
+            <Hint label={name} side="right" sideOffset={16} align="start">
                 <Image
                     fill
                     alt={name}

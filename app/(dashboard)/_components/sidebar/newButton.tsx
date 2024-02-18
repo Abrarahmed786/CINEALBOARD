@@ -10,7 +10,7 @@ export const NewButton = () => {
         <Dialog>
             <DialogTrigger asChild>
                 <div className="aspect-square">
-                    <Hint lable="Add new" side="right" sideOffset={16} align="start">
+                    <Hint label="Add new" side="right" sideOffset={16} align="start">
                         <button className="bg-black/25 h-full w-full rounded-md flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
                             <Plus className="text-black"></Plus>
                         </button>

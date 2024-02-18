@@ -1,7 +1,7 @@
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@radix-ui/react-tooltip";
 
 export interface HintProps  {
-    lable: string
+    label: string
     children: React.ReactNode
     side?: "top" | "bottom" | "left" | "right"
     align?: "start" | "center" | "end"
@@ -10,7 +10,7 @@ export interface HintProps  {
 }
 
 export const Hint = ({
-    lable,
+    label: lable,
     children,
     side,
     align,
